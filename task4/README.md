@@ -1,8 +1,8 @@
 #**Description:**
  A flowgarithm for dice game.
- >##**Rules to play**  :
-#-The points rolled on each player's dice are added to their score.
--If the total is even number,an aditional 10 points are added to their score.
+ ##**Rules to play**  :
+*(The points rolled on each player's dice are added to their score.)
+* (If the total is even number,an aditional 10 points are added to their score.)
 -If the total is an odd number,5 points are subracted from their score.
 -If thet roll a double ,they get to roll one extra die and get the number of points rolled added gto their score.
 -The score of a player  cannoyt go below 0 at any point.
