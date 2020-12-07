@@ -7,9 +7,9 @@
 - If thet roll a double ,they get to roll one extra die and get the number of points rolled added to their score.
 - The score of a player  cannoyt go below 0 at any point.
 - The person with the highest score at the end of the 5 rounds wins.
-- If both players have the same score at the end of the 5 rounds,they each roll 1 die and whoever gets the highest score wins .)
+- If both players have the same score at the end of the 5 rounds,they each roll 1 die and whoever gets the highest score wins .
  
-# **Program Description** :
+ **Program Description** :
 - Allows two players to enter their details,which are then authenticated to ensure that they are authorised players.
 - Allows each player to roll two 6-sided dice.
 - Caluclates and outputs the points for each round and each player's total score.
@@ -19,7 +19,7 @@
 - Stores the winner's score,and their name in an external file.
 - Displays the score and the player name of top 5 winning scores from external file.
 
-#**Steps of flogarithm**:
+**Steps of flogarithm**:
 1. First accepts input from players.
 2. Then it accepts every input for each turns.
 3. It takes the input from the main.
@@ -31,10 +31,10 @@
 #![dice.2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDigRIdFHu6pG4BYpnoSVv2aKq6BEgjKH0sg&usqp=CAU)
 
 
-#**Possibilites:**
+**Possibilites:**
 - If the score of player 1 after five rounds is more than that of player2 then player 1 wins.
 - If the score of player 2 after five rounds is more than that of player1 then player 2 wins
-#**Fun with dice game:**
+**Fun with dice game  :smile:**
 - Everyone life is bonded with dice game we will have plenty of memories from our childhood related with dice game.aboutLanguage.aboutLanguage
 - Lessons from  dice game:
 - Getting along and taking turns.
