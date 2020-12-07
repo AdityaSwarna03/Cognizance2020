@@ -30,6 +30,7 @@
 4. The inputs will be processed in the play function.
 5. After accepting 5 turns from each player then it adds all turns.
 6. Finally gives player1 is winner if sum of player1 is more than player2 and viceversa.
+
 #**Image corner:**
 
 #![dice](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEPV_dcwBXw8PgQBiDodje6HD28Qqj73774A&usqp=CAU)
