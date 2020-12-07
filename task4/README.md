@@ -2,7 +2,7 @@
 
 
 **Description**:
- -A flowgarithm for dice game.
+ - A flowgarithm for dice game.
  
  **Rules to play**:
 * The points rolled on each player's dice are added to their score.
