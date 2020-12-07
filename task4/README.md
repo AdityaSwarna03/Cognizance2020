@@ -3,6 +3,7 @@
 
 **Description**:
  -A flowgarithm for dice game.
+ 
  **Rules to play**:
 * The points rolled on each player's dice are added to their score.
 * If the total is even number,an aditional 10 points are added to their score.
@@ -30,6 +31,7 @@
 5. After accepting 5 turns from each player then it adds all turns.
 6. Finally gives player1 is winner if sum of player1 is more than player2 and viceversa.
 #**Image corner:**
+
 #![dice](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEPV_dcwBXw8PgQBiDodje6HD28Qqj73774A&usqp=CAU)
 #![dice.2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDigRIdFHu6pG4BYpnoSVv2aKq6BEgjKH0sg&usqp=CAU)
 
@@ -37,8 +39,10 @@
 **Possibilites  :question:**:
 - If the score of player 1 after five rounds is more than that of player2 then player 1 wins.
 - If the score of player 2 after five rounds is more than that of player1 then player 2 wins.
+
 **Fun with dice game  :smile:**:
 - Everyone life is bonded with dice game we will have plenty of memories from our childhood related with dice game.aboutLanguage.aboutLanguage
+
 **Lessons from  dice game  :books:**:
 - Getting along and taking turns.
 - Accepting ups and downs and unpredictable outcomes.
