@@ -1,6 +1,9 @@
-#**Description:**
- A flowgarithm for dice game.
- ##**Rules to play**  :
+>**TASK  :four:**
+
+
+**Description:**
+ -A flowgarithm for dice game.
+ **Rules to play**  :
 * The points rolled on each player's dice are added to their score.
 * If the total is even number,an aditional 10 points are added to their score.
 * If the total is an odd number,5 points are subracted from their score.
