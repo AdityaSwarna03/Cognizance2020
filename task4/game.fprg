@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rswarna"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-06 10:02:41 PM"/>
+        <attribute name="created" value="cnN3YXJuYTtTV0FSTkFfRkFNSUxZOzIwMjAtMTItMDY7MDg6MjU6MzcgUE07MzA1Mw=="/>
+        <attribute name="edited" value="cnN3YXJuYTtTV0FSTkFfRkFNSUxZOzIwMjAtMTItMDY7MTA6MDI6NDEgUE07MzszMTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <declare name="p1score" type="Integer" array="False" size=""/>
+            <declare name="p2score" type="Integer" array="False" size=""/>
+            <assign variable="p1score" expression="0"/>
+            <assign variable="p2score" expression="0"/>
+            <for variable="counter" start="0" end="4" direction="inc" step="1">
+                <output expression="&quot;Round&quot;&amp;counter+1" newline="True"/>
+                <output expression="&quot;Ready player 1&quot;" newline="True"/>
+                <assign variable="p1score" expression="play(p1score)"/>
+                <output expression="&quot;Ready player 2&quot;" newline="True"/>
+                <assign variable="p2score" expression="play(p2score)"/>
+                <output expression="&quot;player 1=&quot;&amp;p1score&amp;&quot;player 2=&quot;&amp;p2score" newline="True"/>
+            </for>
+            <while expression="p1score == p2score">
+                <output expression="&quot;WE HAVE A TIE TIME FOR SUDDEN DEATH&quot;" newline="True"/>
+                <assign variable="p1score" expression="p1score+(random(6)+1)"/>
+                <assign variable="p2score" expression="p2score+(random(6)+1)"/>
+            </while>
+            <output expression="p1score&amp;&quot;&quot;&amp;p2score" newline="True"/>
+            <if expression="p1score&gt;p2score">
+                <then>
+                    <output expression="&quot;PLAYER1 WINNER&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;PLAYER2 WINNER&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="play" type="Integer" variable="score">
+        <parameters>
+            <parameter name="score" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Roll1" type="Integer" array="False" size=""/>
+            <declare name="Roll2" type="Integer" array="False" size=""/>
+            <assign variable="Roll1" expression="random(6)+1"/>
+            <assign variable="Roll2" expression="random(6)+1"/>
+            <output expression="&quot;Roll 1 =&quot;&amp;Roll1 &amp;&quot;Roll 2=&quot;&amp;Roll2" newline="True"/>
+            <if expression="(Roll1+Roll2)MOD 2=0">
+                <then>
+                    <assign variable="score" expression="score+((Roll1+Roll2)+10)"/>
+                    <if expression="Roll1==Roll2">
+                        <then>
+                            <assign variable="score" expression="score+(random(6)+1)"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="score" expression="score * 5"/>
+                    <if expression="score&lt;0">
+                        <then>
+                            <assign variable="score" expression="0"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
