@@ -18,3 +18,14 @@ Description:
 .Outputs who has won at the end of the 5 rounds.
 .Stores the winner's score,and their name in an external file.
 .Displays the score and the player name of top 5 winning scores from external file.
+
+Steps of flogarithm:
+.First accepts input from players.
+.Then it accepts every input for each turns.
+.It takes the input from the main.
+.The inputs will be processed in the play function.
+.After accepting 5 turns from each player then it adds all turns.
+.Finally gives player1 is winner if sum of player1 is more than player2 and viceversa.
+Image corner:
+<!--Image-->![dice](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEPV_dcwBXw8PgQBiDodje6HD28Qqj73774A&usqp=CAU)
+<!--Image-->![dice.2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDigRIdFHu6pG4BYpnoSVv2aKq6BEgjKH0sg&usqp=CAU)
